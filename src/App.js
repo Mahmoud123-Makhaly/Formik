@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Formik1 from "./components/Formik1";
+import Formic2 from "./components/Formic2";
+import SignUp from "./components/SignUp";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {/* <Formik1 /> */}
+      {/* <Formic2 /> */}
+      <SignUp />
     </div>
   );
-}
+};
 
 export default App;
